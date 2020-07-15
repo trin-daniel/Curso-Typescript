@@ -1,0 +1,19 @@
+button{
+  border: none;
+  background-color: #313131;
+  color: #ffff;
+
+  height: 40px;
+  width: 100px;
+  border-radius: 4px;
+
+  transition: opacity 0.4s;
+}
+
+button+button {
+  margin-top:5px;
+}
+
+button:hover{
+  opacity: 0.6;
+}
